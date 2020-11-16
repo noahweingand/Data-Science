@@ -153,9 +153,9 @@ def main():
     
     features = pandas.DataFrame()
     features["LENGTH"] = lengths
-    features["MOLECULAR WEIGHT"] = weights
+    #features["MOLECULAR WEIGHT"] = weights
     features["most frequent aa"] = most_frequent
-    features["first amino acids"] = first_aa
+    #features["first amino acids"] = first_aa
     features["last amino acid"] = last_aa
     features["most frequence dipeptide"] = most_frequent_di
     features["aromaticity"] = arom
